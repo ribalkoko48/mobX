@@ -1,0 +1,11 @@
+.content {
+  min-height: 300px;
+  flex-grow: 1;
+  background: lightblue;
+}
+
+.buttons {
+  display: flex;
+  flex-flow: column;
+  width: 200px;
+}

@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="781d4642-04c0-44d3-9141-47b1aa9ec6e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/App.tsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app.module.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/footer/footer.module.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/footer/footer.tsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/header/header.module.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/header/header.tsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/App.test.tsx" afterPath="$PROJECT_DIR$/src/App.test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/index.tsx" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/serviceWorker.ts" afterPath="$PROJECT_DIR$/src/serviceWorker.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/setupTests.ts" afterPath="$PROJECT_DIR$/src/setupTests.js" />
+    <list default="true" id="781d4642-04c0-44d3-9141-47b1aa9ec6e2" name="Default" comment="first release">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/content.module.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/footer/footer.module.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/footer/index.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/header/header.module.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/header/index.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/style.module.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/manifest.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,27 +33,18 @@
     <favorites_list name="mobX" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="name" />
+        <option value="TypeScript File" />
+        <option value="name.module" />
+        <option value="tsconfig.json" />
         <option value="tsx" />
         <option value="SCSS File" />
-        <option value="name" />
-        <option value="name.module" />
-        <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -68,6 +56,10 @@
       <find>selectedUser</find>
       <find>&lt;div className={style.header}&gt;</find>
       <find>eslint</find>
+      <find>devDependencies</find>
+      <find>userStore</find>
+      <find>style</find>
+      <find>state.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,16 +78,34 @@
         <option value="$PROJECT_DIR$/src/store/selectors/index.ts" />
         <option value="$PROJECT_DIR$/src/store/selectors/index.tsx" />
         <option value="$PROJECT_DIR$/src/index.tsx" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/header/header.module.scss" />
-        <option value="$PROJECT_DIR$/src/footer/footer.module.scss" />
         <option value="$PROJECT_DIR$/src/footer/footer.tsx" />
         <option value="$PROJECT_DIR$/src/store/index.ts" />
         <option value="$PROJECT_DIR$/src/App.tsx" />
         <option value="$PROJECT_DIR$/src/store/actions/index.ts" />
         <option value="$PROJECT_DIR$/src/store/store/index.ts" />
         <option value="$PROJECT_DIR$/src/header/header.tsx" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/header/header.module..scss" />
+        <option value="$PROJECT_DIR$/src/footer/footer.jsx" />
+        <option value="$PROJECT_DIR$/src/header/header.jsx" />
+        <option value="$PROJECT_DIR$/src/style.scss" />
+        <option value="$PROJECT_DIR$/src/content/index.jsx" />
+        <option value="$PROJECT_DIR$/src/store/actions/index.js" />
+        <option value="$PROJECT_DIR$/src/store/index.js" />
+        <option value="$PROJECT_DIR$/src/header/index.jsx" />
+        <option value="$PROJECT_DIR$/src/style.module.scss" />
+        <option value="$PROJECT_DIR$/src/content/content.module.scss" />
+        <option value="$PROJECT_DIR$/src/header/header.module.scss" />
+        <option value="$PROJECT_DIR$/src/footer/footer.module.scss" />
+        <option value="$PROJECT_DIR$/public/manifest.json" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/content/index.js" />
+        <option value="$PROJECT_DIR$/src/footer/index.jsx" />
+        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/build/index.html" />
+        <option value="$PROJECT_DIR$/.env.production" />
       </list>
     </option>
   </component>
@@ -116,8 +126,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
-    <option name="y" value="40" />
+    <option name="x" value="27" />
+    <option name="y" value="6" />
     <option name="width" value="1207" />
     <option name="height" value="828" />
   </component>
@@ -137,7 +147,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,12 +158,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/react-scripts/config/webpack.config.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ribalkoko48.github.io" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="settings.webpack" />
     <property name="node.js.path.for.package.jscs" value="project" />
@@ -171,7 +181,13 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\mobX" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\mobX\build\mobx" />
+      <recent name="C:\Projects\mobX\public" />
+      <recent name="C:\Projects\mobX\src" />
       <recent name="C:\Projects\mobX" />
       <recent name="C:\Projects\mobX\src\store\store" />
     </key>
@@ -188,10 +204,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.Unnamed">
-    <configuration name="Unnamed" type="js.build_tools.npm" factoryName="npm">
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" factoryName="npm">
       <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="start" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
       <node-interpreter value="project" />
       <envs />
     </configuration>
@@ -211,11 +230,25 @@
       <workItem from="1586788157158" duration="343000" />
       <workItem from="1586788529619" duration="5556000" />
       <workItem from="1586843830205" duration="5142000" />
+      <workItem from="1586878816871" duration="924000" />
+      <workItem from="1586879808402" duration="1098000" />
+      <workItem from="1586881034070" duration="2000" />
+      <workItem from="1586932185392" duration="17343000" />
+      <workItem from="1587360303610" duration="4436000" />
+      <workItem from="1587377293274" duration="377000" />
     </task>
+    <task id="LOCAL-00001" summary="start">
+      <created>1586880957174</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586880957174</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13891000" />
+    <option name="totallyTimeSpent" value="38071000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -227,26 +260,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="40" width="1207" height="828" extended-state="0" />
-    <editor active="true" />
+    <frame x="27" y="6" width="1207" height="828" extended-state="0" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32658958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22241232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22412318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32803467" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2283237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4031792" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6936416" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29046243" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32658958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -275,103 +307,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start" />
+    <MESSAGE value="add content" />
+    <MESSAGE value="count and name" />
+    <MESSAGE value="first release" />
+    <option name="LAST_COMMIT_MESSAGE" value="first release" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/header/footer.tsx" />
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/footer/index.ts" />
-    <entry file="file://$PROJECT_DIR$/src/footer/footer.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/header/header.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/footer/footer.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/header/header..scss" />
-    <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/lib/react-app.d.ts" />
-    <entry file="file://$PROJECT_DIR$/src/header/header.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/footer/footer.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/header/header.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mobx-react-devtools/index.d.ts" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.tsx" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -380,45 +328,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.tsx" />
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -428,186 +338,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.tsx">
+    <entry file="file://$PROJECT_DIR$/src/App.tsx" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app.module.scss" />
+    <entry file="file://$PROJECT_DIR$/src/index.css" />
+    <entry file="file://$PROJECT_DIR$/src/App.test.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/header/footer.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/footer/index.ts" />
+    <entry file="file://$PROJECT_DIR$/src/footer/footer.module.scss" />
+    <entry file="file://$PROJECT_DIR$/src/header/header.module.scss" />
+    <entry file="file://$PROJECT_DIR$/src/header/header..scss" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/lib/react-app.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/mobx-react-devtools/index.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-popper-tooltip/dist/TooltipTrigger.d.ts" />
+    <entry file="file://$PROJECT_DIR$/src/index.tsx" />
+    <entry file="file://$PROJECT_DIR$/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/src/header/header.module.scss" />
+    <entry file="file://$PROJECT_DIR$/src/store/index.ts" />
+    <entry file="file://$PROJECT_DIR$/src/App.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/store/selectors/index.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/store/actions/index.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/store/store/index.ts" />
+    <entry file="file://$PROJECT_DIR$/config/jest/cssTransform.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="1751" column="8" lean-forward="false" selection-start-line="1751" selection-start-column="8" selection-end-line="1751" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.test.tsx">
+    <entry file="file://$PROJECT_DIR$/src/header/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/footer/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/src/content/index.jsx" />
+    <entry file="file://$PROJECT_DIR$/node_modules/mobx/lib/mobx.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="821" lean-forward="false" selection-start-line="17" selection-start-column="813" selection-end-line="17" selection-end-column="821" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mobx/lib/mobx.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="2324" column="0" lean-forward="false" selection-start-line="2324" selection-start-column="0" selection-end-line="2324" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/header/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/header/footer.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/footer/index.ts" />
-    <entry file="file://$PROJECT_DIR$/src/footer/footer.module.scss">
+    <entry file="file://$PROJECT_DIR$/src/content/content.module.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/header/header.module.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/header/header..scss" />
-    <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/lib/react-app.d.ts" />
-    <entry file="file://$PROJECT_DIR$/node_modules/mobx-react-devtools/index.d.ts">
+    <entry file="file://$PROJECT_DIR$/src/footer/footer.module.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json" />
+    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/footer/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/mobx/index.html" />
+    <entry file="file://$PROJECT_DIR$/.env.production">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/content/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-popper-tooltip/dist/TooltipTrigger.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/header/header.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/footer/footer.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/footer/footer.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/selectors/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="103" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="80" lean-forward="false" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/store/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/header/header.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="297">
+          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding />
         </state>
       </provider>
