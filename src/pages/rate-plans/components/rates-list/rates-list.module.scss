@@ -1,0 +1,29 @@
+@import "src/style-utils";
+
+.wrapper {
+	min-width: 300px;
+	overflow: auto;
+
+	@include scrollbars(8px);
+}
+
+.listItem {
+	box-shadow: 0 0 0 1px #d9d9d9 inset;
+	color: #595959;
+	cursor: pointer;
+	padding: 10px 10px 10px 30px;
+
+	&:hover {
+		background: #e8e8e8;
+	}
+}
+
+.currentItem {
+	background: #53b561;
+	color: white;
+
+	&:hover {
+		background: #479952;
+		color: white;
+	}
+}

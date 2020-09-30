@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+/* stylelint-disable */
+html,
+body,
+#root {
+	height: 100%;
+	width: 100%;
+}
+/* stylelint-enable */
+
+html,
+body,
+div,
+span,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li {
+	margin: 0;
+	padding: 0;
+}
+
+ol,
+ul {
+	list-style: none;
+}

@@ -1,0 +1,42 @@
+.wrapper {
+
+	width: 100%;
+}
+
+.icon {
+	align-items: center;
+	display: flex;
+	height: 32px;
+	justify-content: center;
+	position: absolute;
+	right: 5px;
+	top: 0;
+	width: 32px;
+	z-index: 1;
+}
+
+.label {
+	left: 25px;
+	pointer-events: none;
+	position: absolute;
+	top: 25%;
+	transition: top .5s ease-in-out;
+}
+
+.input {
+	background-color: #fff;
+	border: 1px solid #D9D9D9;
+	border-radius: 4px;
+	font-size: 16px;
+	height: 32px;
+	outline: none;
+	overflow: hidden;
+	padding: 0 10px;
+	position: relative;
+	text-overflow: ellipsis;
+	width: 100%;
+}
+
+.inputWithIcon {
+	padding: 0 30px 0 10px;
+}

@@ -1,0 +1,25 @@
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.infoTitle {
+	font-size: 20px;
+	font-weight: 600;
+	padding: 20px;
+	width: 100%;
+}
+
+.infoBlock {
+	padding: 20px;
+
+	p > span {
+		font-weight: 600;
+	}
+}
+
+.loading,
+.error {
+	height: 80px;
+}

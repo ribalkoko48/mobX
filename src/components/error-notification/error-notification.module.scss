@@ -1,0 +1,13 @@
+.wrapper {
+
+	& > div {
+		background: #f53e3e;
+	}
+}
+
+.text {
+	color: black;
+	margin: 0 10px;
+	word-break: break-word;
+}
+

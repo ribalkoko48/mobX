@@ -1,0 +1,44 @@
+@mixin scrollbars($size: 13px) {
+
+	&::-webkit-scrollbar {
+		height: $size;
+		width: $size;
+	}
+
+	&::-webkit-scrollbar-button {
+		height: 0;
+		width: 0;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background: rgba(black, .2);
+		border: 0 none rgba(black, .2);
+		border-radius: 7px;
+	}
+
+	&::-webkit-scrollbar-thumb:hover {
+		background: rgba(black, .4);
+	}
+
+	&::-webkit-scrollbar-thumb:active {
+		background: rgba(black, .4);
+	}
+
+	&::-webkit-scrollbar-track {
+		background: transparent;
+		border: 0 none transparent;
+		border-radius: 5px;
+	}
+
+	&::-webkit-scrollbar-track:hover {
+		background: transparent;
+	}
+
+	&::-webkit-scrollbar-track:active {
+		background: transparent;
+	}
+
+	&::-webkit-scrollbar-corner {
+		background: transparent;
+	}
+}

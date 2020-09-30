@@ -1,0 +1,18 @@
+.wrapper {
+
+	.progress {
+		background: gray;
+	}
+}
+
+.text {
+	color: black;
+	margin: 0 10px;
+	word-break: break-word;
+}
+
+.close {
+	cursor: pointer;
+	margin-left: 10px;
+	transform: rotate(45deg);
+}
