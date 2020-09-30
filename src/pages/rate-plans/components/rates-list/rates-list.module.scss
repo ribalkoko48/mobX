@@ -7,6 +7,10 @@
 	@include scrollbars(8px);
 }
 
+.spinner {
+    width: 300px;
+}
+
 .listItem {
 	box-shadow: 0 0 0 1px #d9d9d9 inset;
 	color: #595959;

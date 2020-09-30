@@ -5,6 +5,7 @@ import cn from 'classnames';
 import AnimateHeight from 'react-animate-height';
 import { IRegionStore } from 'store/regions';
 import * as style from './region-list.module.scss';
+import {Spinner} from "../../../../components/spinner";
 
 type TProps = {
     onChange: (data: { currentRegionId: string }) => void;
@@ -77,7 +78,7 @@ class RegionListComponent extends PureComponent<TProps & TStore, TState> {
         return (
             <>
                 {status === STATUSES.ERROR && 'Данные не загрузились. Обновите странцу'}
-                {status === STATUSES.LOADING && '...загрузка'}
+                {status === STATUSES.LOADING && <Spinner className={style.spinner} />}
                 {status === STATUSES.LOADED && (
                     <div className={style.wrapper}>
                         <ul>

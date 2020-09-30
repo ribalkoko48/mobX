@@ -4,6 +4,7 @@ import { STATUSES } from 'services';
 import cn from 'classnames';
 import { IRatesStore } from 'store/rates';
 import * as style from './rates-list.module.scss';
+import {Spinner} from "../../../../components/spinner";
 
 type TProps = {
     onChange: (data: { currentRate: string | null }) => void;
@@ -33,7 +34,7 @@ class RatesListComponent extends PureComponent<TProps & TStore> {
         return (
             <>
                 {status === STATUSES.ERROR && 'Данные не загрузились. Обновите странцу'}
-                {status === STATUSES.LOADING && '...загрузка'}
+                {status === STATUSES.LOADING  && <Spinner className={style.spinner} />}
                 {status === STATUSES.LOADED && (
                     <div className={style.wrapper}>
                         <ul>
