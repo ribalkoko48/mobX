@@ -11,7 +11,7 @@
         "@unicef/material-ui-currency-textfield": "^0.8.6",
         "axios": "^0.20.0",
         "classnames": "^2.2.6",
-        "marked": "^1.1.1",
+        "marked": "^2.0.0",
         "material-table": "^1.69.0",
         "mobx": "^5.15.7",
         "mobx-react": "^6.3.0",
